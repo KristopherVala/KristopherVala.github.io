@@ -1,0 +1,132 @@
+  
+
+ p, h2, h3, h4 {
+            font-family: 'Open Sans',serif;
+        }
+
+        p {
+            font-size: 24px;
+            color:white;
+        }
+
+        .container-fluid {
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+        }
+
+        .main {
+            width: 100%;
+            height: 300px;
+            background-image: url(assets/clouds.jpg);
+            position: absolute;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            clear: both;
+        }
+
+        .container {
+            width: 100%;
+            padding: 0;
+            display: block;
+        }
+
+      .navbar-header {
+            height: 10%;
+            width: 100%;
+            position: fixed;
+            background-color: white;
+        }
+
+        #div {
+            display: block;
+        }
+ body {
+    background: #000;
+}
+
+.center-con {
+    display: flex;
+    height: 5%;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    padding:0px;
+}
+
+.round {
+    position: relative;
+    border: 3px solid #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+span {
+    z-index: 999;
+    height: 3px;
+    margin:1px;
+    width: 30px;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 35%;
+}
+
+span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 35%;
+}
+
+span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 54%;
+}
+
+span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%;
+}
+
+.round:hover span:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round:hover span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round:hover span:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
+
+
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    }
+
