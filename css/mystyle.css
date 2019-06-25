@@ -22,10 +22,34 @@
   padding: 0;
   width: 100%;
 }
+
+        .wordbox{
+            width:70%;
+            text-align:center;
+            align-content:center;
+            margin:auto;
+
+        }
         .container-fluid {
             max-width: 100%;
             margin: 0;
             padding: 0;
+        }
+        .wrapperz{
+            height:1000px;
+            z-index:-2;
+        }
+         .bodyback {
+             margin-top:20%;
+             padding-top:6%;
+            max-width: 90%;
+            margin: auto;
+            height:100%;
+            background-color:#f2f2f2;
+            align-content:center;
+            border:solid 2px black;
+            z-index:-3;
+
         }
 
         li {
@@ -54,6 +78,7 @@
             width: 100%;
             position: fixed;
             background-color: white;
+            z-index:7;
         }
 
         #div {
